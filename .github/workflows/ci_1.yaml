@@ -16,3 +16,6 @@ jobs:
         run: |
           echo ${{ steps.ip.outputs.ipv4 }}
           echo ${{ steps.ip.outputs.ipv6 }}
+      - name: fecha server
+        run: 
+          echo $(date)
